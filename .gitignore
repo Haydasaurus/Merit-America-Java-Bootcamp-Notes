@@ -5,3 +5,7 @@
 .obsidian/graph.json
 .obsidian/hotkeys.json
 .obsidian/workspace
+*.json
+*.js
+*.css
+BootcampOS/.obsidian/workspace
