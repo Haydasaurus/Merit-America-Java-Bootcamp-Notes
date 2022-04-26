@@ -1,0 +1,2 @@
+# How do you move a file named "lorem.txt" into a subfolder named "ipsum"?
+mv lorem.txt ipsum
