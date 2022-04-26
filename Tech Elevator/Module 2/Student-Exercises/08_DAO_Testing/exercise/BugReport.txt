@@ -1,0 +1,43 @@
+Bug 1
+-----
+Test that demonstrates problem:
+
+Expected output:
+
+Actual output:
+
+How did you fix this bug?
+
+
+Bug 2
+-----
+Test that demonstrates problem:
+
+Expected output:
+
+Actual output:
+
+How did you fix this bug?
+
+
+Bug 3
+-----
+Test that demonstrates problem:
+
+Expected output:
+
+Actual output:
+
+How did you fix this bug?
+
+
+Bug 4
+-----
+Test that demonstrates problem:
+
+Expected output:
+
+Actual output:
+
+How did you fix this bug?
+
