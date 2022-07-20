@@ -1,0 +1,3 @@
+{
+  "/hotels/:id/reviews": "/reviews?hotelID=:id"
+}

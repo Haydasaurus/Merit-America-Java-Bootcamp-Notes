@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+a:visited {
+    color: rgb(0, 0, 238);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 192, 192, 0.35);
+}
+
+.container {
+    padding: 0.5rem;
+}
+
+header {
+    padding: 0 10px;
+    text-align: center;
+}
+
+nav#menu-nav {
+    text-align: center;
+}
+
+aside#upcoming-events {
+    font-size: 1.1em;
+    text-align: right;
+    padding-right: 10px;
+}
+
+footer {
+    font-size: 0.75em;
+    padding: 10px;;
+}
+
+header, .sidebar, main, footer {
+    border: solid black 1px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.sidebar ul {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.sidebar li {
+    display: list-item;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+nav#site-nav ul {
+    padding-left: 0;
+}
+
+nav#site-nav li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav#site-nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sidebar li, .sidebar h3 {
+    text-transform: uppercase;
+}
+
+.sidebar li.sub-menu-item {
+    display: list-item;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+.sidebar a:hover, nav#site-nav li a:hover {
+    text-decoration: underline;
+}
+.sidebar .active {
+    font-weight: bold;
+}
+
+ul.sub-menu {
+    border-top: solid rgba(0, 0, 0, 0.25) 1px;
+    border-bottom: solid rgba(0, 0, 0, 0.25) 1px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    margin: 10px auto;
+}
+
+div.food-item {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+div.food-item img {
+    max-width: 100%;
+}
+div.food-item p {
+    line-height: 2em;
+}

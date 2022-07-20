@@ -1,0 +1,73 @@
+:root {
+    --card-width: 500px;
+}
+
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#card_side {
+    margin-right: 40px;
+}
+
+#cat_card {
+    margin-top: 25px;
+    background-color: azure;
+    display: inline-block;
+    padding: 3px;
+    border: 3px solid black;
+    width: var(--card-width);
+}
+
+#cat_pic {
+    height: calc(var(--card-width) / 1.6);
+    width: var(--card-width);
+    object-fit: cover;
+}
+
+#cat_fact {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: var(--card-width);
+}
+
+#caption_box {
+    font-size: 25px;
+    font-family: Impact;
+    margin-top: 25px;
+    display: block;
+    width: var(--card-width);
+}
+#caption_box::placeholder {
+    text-align: center;
+}
+
+#button_holder {
+    width: var(--card-width);
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+#collection {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.card {
+    width: 300px;
+    text-align: center;
+}
+.card > img {
+    width: 300px;
+}
+
+
+
