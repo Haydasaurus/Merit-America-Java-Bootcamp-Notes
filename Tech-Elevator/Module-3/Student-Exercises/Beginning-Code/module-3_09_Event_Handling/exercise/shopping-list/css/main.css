@@ -1,0 +1,69 @@
+body {
+    background: rgb(61,201,164);
+    background: radial-gradient(circle, rgba(61,201,164,1) 50%, rgba(92,133,120,1) 100%);
+}
+.shopping-list {
+    width:450px;
+    background: #fff;
+    margin: 50px auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+}
+h1 {
+    background:#f2f2f2;
+    color:#5c8578;
+    padding:10px;
+    font-size:24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+li {
+    font-size: 24px;
+    border-bottom:1px solid #f2f2f2;
+    padding:10px 20px;
+    cursor:pointer;
+}
+li:last-child{
+    border:0px;
+}
+li.completed {
+    text-decoration: line-through;
+    color:darkgrey;
+}
+i.far.fa-check-circle { 
+    float:right;
+    color: darkgray;
+}
+
+i.far.fa-check-circle.completed {
+    color:green;
+}
+input[type="checkbox"] {
+    font-size:40px;
+    vertical-align: middle;
+    margin-top:0px;
+}
+a.btn {
+    width:250px;
+    margin: 0px auto;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding:10px;
+    border-radius: 4px;
+    background-color: rgb(131, 210, 255);
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#5171ff;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: none;
+}

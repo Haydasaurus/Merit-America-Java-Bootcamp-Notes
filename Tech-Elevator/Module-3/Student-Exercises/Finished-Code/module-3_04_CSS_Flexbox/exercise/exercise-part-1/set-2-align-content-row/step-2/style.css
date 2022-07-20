@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-size: 2.5em;
+}
+
+.container {
+  background-color: #F0F0F0;
+}
+
+.box {
+  padding: 40px 55px;
+  margin: 15px 0;
+  background-color: #00AFEF;
+  color: #fff;
+  border: solid 1px #777;
+}

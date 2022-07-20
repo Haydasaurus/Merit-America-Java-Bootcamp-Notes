@@ -1,0 +1,6 @@
+{
+    "defaultCommandTimeout": 100,
+    "screenshotOnRunFailure": false,
+    "video": false,
+    "reporter": "cypress/reporters/te-reporter"
+}

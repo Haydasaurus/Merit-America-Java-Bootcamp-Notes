@@ -1,0 +1,2 @@
+# How do you change your current working directory to a directory at the root of the file system named "usr"?
+cd /usr

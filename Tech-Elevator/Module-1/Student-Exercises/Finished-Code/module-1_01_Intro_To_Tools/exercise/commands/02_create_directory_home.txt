@@ -1,0 +1,2 @@
+# How do you create a new directory called "work" in your home directory? (hint: use the shortcut for your home directory)
+mkdir ~/work

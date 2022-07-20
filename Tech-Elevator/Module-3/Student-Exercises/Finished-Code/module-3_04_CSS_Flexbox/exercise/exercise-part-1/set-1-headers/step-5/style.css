@@ -1,0 +1,43 @@
+body {
+  margin: 20px;
+  padding: 0
+}
+
+header {
+  background-color: #F0F0F0;
+  padding: 20px;
+}
+
+.logo {
+  width: 140px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #707070;
+  padding: 0 20px 0 0;
+  margin-left: 20px;
+}
+
+a,
+a:visited {
+  color: #707070;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00AFEF;
+  text-decoration: underline;
+}
+
+.my-account img {
+  width: 40px;
+}

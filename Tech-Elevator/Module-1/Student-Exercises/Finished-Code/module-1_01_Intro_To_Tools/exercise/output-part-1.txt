@@ -1,0 +1,33 @@
+
+---- VERIFYING PART 1 ---- 
+
+✅ 1. /c/Users/Treblig/playground exists
+✅ 2. /c/Users/Treblig/playground/usa exists
+✅ 3. /c/Users/Treblig/playground/canada exists
+✅ 4. /c/Users/Treblig/playground/usa/ohio exists
+✅ 5. /c/Users/Treblig/playground/usa/pennsylvania exists
+✅ 6. /c/Users/Treblig/playground/usa/michigan exists
+✅ 7. /c/Users/Treblig/playground/canada/quebec exists
+✅ 8. /c/Users/Treblig/playground/canada/british-columbia exists
+✅ 9. /c/Users/Treblig/playground/usa/ohio/cuyahoga exists
+✅ 10. /c/Users/Treblig/playground/usa/ohio/hamilton exists
+✅ 11. /c/Users/Treblig/playground/usa/ohio/franklin exists
+✅ 12. /c/Users/Treblig/playground/usa/pennsylvania/allegheny exists
+✅ 13. /c/Users/Treblig/playground/usa/michigan/wayne exists
+✅ 14. /c/Users/Treblig/playground/usa/ohio/cuyahoga/cleveland.txt exists
+✅ 15. /c/Users/Treblig/playground/usa/ohio/hamilton/cincinnati.txt exists
+✅ 16. /c/Users/Treblig/playground/usa/ohio/franklin/columbus.txt exists
+✅ 17. /c/Users/Treblig/playground/usa/pennsylvania/allegheny/pittsburgh.txt exists
+✅ 18. /c/Users/Treblig/playground/usa/michigan/wayne/detroit.txt exists
+✅ 19. /c/Users/Treblig/playground/canada/quebec/montreal.txt exists
+✅ 20. /c/Users/Treblig/playground/canada/quebec/quebec-city.txt exists
+✅ 21. /c/Users/Treblig/playground/canada/british-columbia/vancouver.txt exists
+✅ 22. /c/Users/Treblig/playground/canada/british-columbia/prince-george.txt exists
+
+Total tests: 22
+Tests passed: 22
+Errors: 0
+
+Congratulations! All tests in Part 1 are passing.
+Continue on to Part 2 in the README.
+

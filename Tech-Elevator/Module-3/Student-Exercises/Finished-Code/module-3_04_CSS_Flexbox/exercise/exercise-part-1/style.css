@@ -1,0 +1,31 @@
+body {
+  margin: 20px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.5rem;
+  color: #707070;
+  margin-left: 20px;
+}
+
+a,
+a:visited {
+  color: #707070;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00AFEF;
+  text-decoration: underline;
+}

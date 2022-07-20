@@ -1,0 +1,16 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test-headless": "cypress run"
+  },
+  "keywords": [],
+  "author": "Tech Elevator",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "3.8.3"
+  }
+}

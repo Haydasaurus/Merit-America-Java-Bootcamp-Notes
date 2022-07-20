@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Exercise - Tests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/5.2.0/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <div id="fixture" style="display:none;">
+      <div class="shopping-list">
+        <h1 id="title"></h1>
+        <ul id="groceries">
+
+        </ul>
+      </div>
+
+      <a href="#" class="btn">
+        Mark All Completed
+      </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/5.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.1.2/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- load code you want to test here -->
+    <script src="../js/shopping-list.js"></script>
+
+    <!-- load your test files here -->
+    <script src="tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>

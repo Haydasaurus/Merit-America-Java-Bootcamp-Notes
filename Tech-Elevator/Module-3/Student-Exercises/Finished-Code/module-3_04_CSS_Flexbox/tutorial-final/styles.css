@@ -1,0 +1,268 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#page-header {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left-panel {
+  grid-area: left-panel;
+}
+main {
+  grid-area: main;
+}
+aside#special-announcements {
+  grid-area: special-announcements;
+}
+aside#weather {
+  grid-area: weather;
+}
+
+div.container {
+  display: grid;
+  grid-template-columns: 300px 1fr 250px;
+  grid-template-rows: 100px 1fr 1fr;
+  gap: 15px;
+  grid-template-areas:
+    "header header header"
+    "left-panel main special-announcements"
+    "left-panel main weather";
+}
+
+#page-header img {
+  height: 80%;
+}
+#page-header > #search {
+  font-size: 20px;
+  height: 40px;
+}
+#page-header nav ul {
+  padding-left: 0;
+}
+#page-header nav li {
+  list-style-type: none;
+  display: inline;
+}
+#page-header nav li:not(:first-child):before {
+  content: "|";
+  padding-right: 5px;
+}
+#page-header nav li a {
+  text-decoration: none;
+}
+#page-header nav li a:hover {
+  text-decoration: underline;
+}
+
+#left-panel>hr {
+  width: 80%;
+}
+#left-panel>nav>menu {
+  padding-left: 0;
+}
+
+div.container>main>article {
+  border: 1px solid silver;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+main>article>img {
+float: right;
+border-radius: 15px;
+}
+
+div.container>main>article>ul>li {
+  margin-bottom: 15px;
+}
+
+div.container>main>article h3,
+div.container>main>article h4 {
+  margin: 3px;
+}
+
+div.container>main>article span.citation {
+  font-size: .7em;
+  color: darkgray;
+}
+
+a[target*=_blank] {
+  text-decoration: none;
+  font-size: .7em;
+}
+
+a[target*=_blank]:hover {
+  text-decoration: underline;
+}
+
+#left-panel>nav>menu>li {
+  list-style: none;
+  padding: 13px 0;
+}
+
+#left-panel>nav>menu>li>a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  width: 70%;
+  margin: 15px auto;
+  display: block;
+}
+
+.active-left-menu {
+  background-color: rgba(135, 206, 250, 0.5);
+  border-radius: 0 30px 30px 0;
+}
+
+#left-panel>nav>menu>li.active-left-menu>a {
+  color: blue;
+}
+
+#left-panel>nav>menu>li:hover {
+  background-color: rgba(208, 235, 252, 0.5);
+  border-radius: 0 30px 30px 0;
+  color: blue;
+}
+
+aside article {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+aside#special-announcements article {
+  color:darkkhaki;
+  background-color: lightyellow;
+  border: 1px solid darkgoldenrod;
+}
+aside#weather article {
+  color: black;
+  background-color: skyblue;
+  border: 1px solid darkblue;
+}
+aside header {
+  text-align: center;
+  font-weight: bold;
+}
+aside hr {
+  width: 80%;
+}
+
+#weather {
+  width: 100%;
+}
+#weather .day {
+  font-weight: bold;
+}
+#weather .temperature {
+  margin: 2px auto;
+  font-size: 0.8em;
+  display: block;
+}
+#weather section p:not(:last-child) {
+  border-bottom: solid black 1px;
+}
+
+aside#weather section p {
+  padding: 10px;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  div.container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-template-areas:
+      "header"
+      "left-panel"
+      "main"
+      "special-announcements"
+      "weather";
+  }
+  #page-header {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  #page-header img {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #page-header > #search {
+    font-size: 18px;
+    border-style: groove;
+  }
+  #page-header nav ul {
+    padding-left: 10px;
+  }
+
+  #left-panel > nav > menu {
+    margin: 5px auto;
+  }
+
+  #left-panel>nav>menu>li {
+    display: inline-block;
+    padding: 0 7px;
+  }
+
+  #left-panel>nav>menu>li>a {
+    margin: 0;
+  }
+
+  .active-left-menu,
+  #left-panel>nav>menu>li:hover {
+    border-radius: 30px;
+  }
+
+  main h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  #weather .forecast {
+    display: block;
+  }
+  #weather section p:not(:last-child) {
+    border-bottom: none;
+    border-right: solid black 1px;
+  }
+  aside#weather section {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  #page-header {
+    padding-top: 5px;
+    flex-wrap: wrap;
+  }
+  #page-header nav ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #weather .forecast {
+    display: inline;
+  }
+  #weather section p:not(:last-child) {
+    border-bottom: solid black 1px;
+    border-right: none;
+  }
+  aside#weather section {
+    flex-direction: column;
+  }
+}

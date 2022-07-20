@@ -1,0 +1,131 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 300px 1fr 250px;
+  gap: 15px;
+}
+
+#left-panel > hr {
+  width: 80%;
+}
+
+#left-panel > nav > menu {
+  padding-left: 0;
+}
+
+/* ---- Paste below ---- */
+
+body > main > article {
+  border: 1px solid silver;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+main > article > img {
+float: right;
+border-radius: 15px;
+}
+
+body > main > article > ul > li {
+  margin-bottom: 15px;
+}
+
+body > main > article h3,
+body > main > article h4 {
+  margin: 3px;
+}
+
+body > main > article span.citation {
+  font-size: .7em;
+  color: darkgray;
+}
+
+a[target*=_blank] {
+  text-decoration: none;
+  font-size: .7em;
+}
+
+a[target*=_blank]:hover {
+  text-decoration: underline;
+}
+
+#left-panel > nav > menu >li {
+  list-style: none;
+  padding: 13px 0;
+}
+
+#left-panel > nav > menu > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  width: 70%;
+  margin: 15px auto;
+  display: block;
+}
+
+.active-left-menu {
+  background-color: rgba(135, 206, 250, 0.5);
+  border-radius: 0 30px 30px 0;
+}
+
+#left-panel>nav>menu>li.active-left-menu>a {
+  color: blue;
+}
+
+#left-panel > nav > menu > li:hover {
+  background-color: rgba(208, 235, 252, 0.5);
+  border-radius: 0 30px 30px 0;
+  color: blue;
+}
+
+aside article {
+  color:darkkhaki;
+  background-color: lightyellow;
+  border: 1px solid darkgoldenrod;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+aside article header {
+  text-align: center;
+  font-weight: bold;
+}
+aside hr {
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  #left-panel > nav > menu {
+    margin: 5px auto;
+  }
+
+  #left-panel>nav>menu>li {
+    display: inline-block;
+    padding: 0 7px;
+  }
+
+  #left-panel>nav>menu>li>a {
+    margin: 0;
+  }
+
+  .active-left-menu,
+  #left-panel>nav>menu>li:hover {
+    border-radius: 30px;
+  }
+
+  main h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+}
+

@@ -1,0 +1,18 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.bio {
+  background-color: #F0F0F0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #555;
+}
+
+.bio img {
+  width: 150px;
+  border-radius: 999px;
+  margin: 0 10px;
+}
